@@ -6,22 +6,22 @@ const Example2 = (props) => {
     <div style={{ backgroundColor: "blue" }}>
       <Nav>
         <NavItem>
-          <NavLink href="#" style={{ color: "yellow" }}>
+          <NavLink href="/veg/" style={{ color: "yellow" }}>
             Veg
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#" style={{ color: "yellow" }}>
+          <NavLink href="/Non-veg/" style={{ color: "yellow" }}>
             Non-Veg
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#" style={{ color: "yellow" }}>
+          <NavLink href="Desserts" style={{ color: "yellow" }}>
             Desserts
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#" style={{ color: "yellow" }}>
+          <NavLink href="Drinks" style={{ color: "yellow" }}>
             Drinks
           </NavLink>
         </NavItem>

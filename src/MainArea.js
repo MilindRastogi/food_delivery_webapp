@@ -9,42 +9,52 @@ class MainArea extends Component {
       dish: [
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
           price: 250,
         },
         {
           name: "Burger",
-          Description: "Chesse Burger",
+          Description: "Description about food",
+          price: 250,
+        },
+        {
+          name: "Burger",
+          Description: "Description about food",
+          price: 250,
+        },
+        {
+          name: "Burger",
+          Description: "Description about food",
           price: 250,
         },
       ],

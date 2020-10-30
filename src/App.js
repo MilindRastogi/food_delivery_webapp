@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Example from "./nav";
+import Navigation from "./nav";
 import Example1 from "./carousel";
 import Example2 from "./menu_bar";
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Example></Example>
+        <Navigation></Navigation>
       </div>
       <div>
         <Example1></Example1>
