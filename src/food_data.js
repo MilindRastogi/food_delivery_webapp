@@ -1,83 +1,92 @@
-import React, { Component } from "react";
-import { Col, Container, Row } from "reactstrap";
-import Example3 from "./dish_card";
-
-class MainArea extends Component {
-  constructor() {
-    super();
-    this.state = {
-      dish: [
+export const dish= [
         {
+          id: 1,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
-        {
+        {  
+          id: 2,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 3,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+          id: 4,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
-        {
+        { 
+           id: 5,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 6,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 7,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 8,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 9,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
         {
+           id: 10,
           name: "Burger",
           Description: "Description about food",
           price: 250,
+          inCart: false,
+          count: 0,
+          total: 0,
         },
-      ],
-    };
-  }
-  render() {
-    let dishcards = this.state.dish.map((dish) => {
-      return (
-        <Col
-          sm="3"
-          style={{
-            paddingBottom: "50px",
-          }}
-        >
-          <Example3 dish={dish}></Example3>
-        </Col>
-      );
-    });
-    return (
-      <Container fluid>
-        <Row>{dishcards}</Row>
-      </Container>
-    );
-  }
-}
-export default MainArea;
+      ]

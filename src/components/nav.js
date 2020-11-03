@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -38,7 +39,8 @@ const Navigation = (props) => {
           </Nav>
           
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
-          <button class="fa fa-shopping-cart fa-2x"></button>
+          <Link  to="/Cart">
+            <button class="fa fa-shopping-cart fa-2x"></button></Link>
         </Collapse>
       </Navbar>
     </div>

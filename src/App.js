@@ -1,11 +1,15 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Navigation from "./nav";
-import Example1 from "./carousel";
-import Example2 from "./menu_bar";
+import Navigation from "./components/nav";
+import Example1 from "./components/carousel";
+import Example2 from "./components/menu_bar";
+import MainArea from "./components/MainArea";
+import Cart from "./components/Cart/cart.js";
+import Default from "./components/Default.js"
+import {Switch,Route} from 'react-router-dom';
+import FoodList from './components/FoodList'
 
-import MainArea from "./MainArea";
 
 function App() {
   return (
@@ -13,19 +17,18 @@ function App() {
       <div>
         <Navigation></Navigation>
       </div>
-      <div>
-        <Example1></Example1>
-      </div>
-      <div>
-        <h3>Menu</h3>
-      </div>
-      <div>
-        <Example2></Example2>
-      </div>
-
-      <div>
-        <MainArea></MainArea>
-      </div>
+      <Switch>
+        <Route path="/cart" component={Cart}></Route>
+        <Route path='/' render={props =>
+                    <>
+                      <Example1/>
+                      <h1>Menu</h1>
+                      <Example2/>
+                      <FoodList></FoodList>
+                      {/* <MainArea/> */}
+                    </>} />
+        <Route  component={Default}></Route>
+      </Switch>
     </div>
   );
 }
