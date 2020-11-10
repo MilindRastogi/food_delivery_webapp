@@ -45,17 +45,89 @@
 .menu_card {
   display: flex;
   float: left;
-  min-width: 25%;
-  width: 25%;
-  padding: 1rem 1rem 1rem 1rem;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  width: 300px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+.menu_card:hover {
+  border: 0.08rem solid rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 800px) {
   .menu_card {
     float: left;
-    width: 50%;
+    width: 40%;
   }
 }
 .cart-btn {
   width: 175px;
   height: 40px;
+  background: transparent;
+  color: var(--mainBlack);
+  border-radius: 5px !important;
+}
+.cart-btn:hover {
+  background: green !important;
+  color: var(--mainWhite) !important;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.menu_heading {
+  box-sizing: content-box;
+  border-style: solid;
+  border-color: green;
+  border-radius: 20px;
+  border-width: 5px;
+  margin: 50px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form_container {
+  height: 600px;
+  width: 500px;
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.label_class {
+  float: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  /* margin-bottom: 20px; */
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.checkout_btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.checkout_btn:hover {
+  background-color: #45a049;
+}
+.col-50 {
+  margin-left: 10px;
+}
+.error {
+  font-size: 10px;
+  height: 10px;
 }

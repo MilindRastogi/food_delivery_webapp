@@ -23,6 +23,9 @@ export default function CartTotals({value}) {
                     <h5>
                         <span>total : <strong>{cartTotal}</strong></span>
                     </h5>
+                    <Link to ="/form">
+                    <button>Proceed to Pay</button>
+                    </Link>
                     </div>
                 </div>
             </div>

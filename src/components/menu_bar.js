@@ -3,7 +3,7 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 
 const Example2 = (props) => {
   return (
-    <div style={{ backgroundColor: "blue" }}>
+    <div style={{ backgroundColor: "blue" }} className="sticky">
       <Nav>
         <NavItem>
           <NavLink href="/veg/" style={{ color: "yellow" }}>

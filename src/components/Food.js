@@ -26,7 +26,7 @@ export default class Food extends Component {
                     <MenuConsumer>{
                         value =>{
                             return(
-                       <Button className="cart-btn" style={{backgroundColor:"green"}}
+                       <Button className="cart-btn"
                     disabled={inCart ? true : false} onClick={
                         () =>{value.addToCart(id); 
                     }}>
